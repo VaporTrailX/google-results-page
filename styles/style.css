@@ -1,0 +1,463 @@
+* {
+  font-family: arial, sans-serif;
+}
+
+.nav {
+  width: 100%;
+  min-width: 1000px;
+  height: 50px;
+}
+
+.nav ul {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+
+.lnav li {
+  display: block;
+  float: left;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.rnav li {
+  display: block;
+  float: right;
+  padding: 10px;
+}
+
+.icon {
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+  margin-top: 0px;
+  opacity: 0.75;
+}
+
+.icon:hover {
+  opacity: 1.0;
+}
+
+.subNav {
+  display: block;
+  width: 650px;
+  min-width: 650px;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.subNav a {
+  color: #000;
+  text-decoration: none;
+  padding-left: 15px;
+  font-family: arial, sans-serif;
+	font-size: 13px;
+	opacity: 0.50;
+}
+
+.subNav a:hover {
+  opacity: 0.75;
+}
+
+.subNav li {
+  float: left;
+  padding-left: 20px;
+}
+
+.rsubNav {
+  float: right;
+}
+
+.numbers {
+  display: block;
+  width: 650px;
+  min-width: 650px;
+  height: 50px;
+  margin-top: 5px;
+  margin-left: 120px;
+  color: #000;
+  text-decoration: none;
+  padding-left: 15px;
+  font-family: arial, sans-serif;
+	font-size: 13px;
+	opacity: 0.50;
+}
+
+.result {
+  width: 650px;
+  margin-left: 135px;
+  margin-bottom: 25px;
+}
+
+h1 {
+  color: #1A23BD;
+  font-family: arial, sans-serif;
+  font-size: 18px;
+  line-height: 21.6px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1:hover {
+  text-decoration: underline;
+}
+
+.address {
+  color: #006621;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+}
+
+.date {
+  color: #808080;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  line-height: 18.2px;
+  text-decoration: none;
+}
+
+.text {
+  color: #545454;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  line-height: 18.2px;
+  text-decoration: none;
+  word-wrap: break-word;
+}
+
+.related {
+  width: 670px;
+  margin-left: 120px;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+
+h2 {
+  color: #808080;
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+li.border {
+    border: 1px solid rgba(0, 0, 0, .2);
+    padding: 0px 15px 0px 15px;
+}
+
+.relatedResult {
+  color: #222;
+  font-family: arial, sans-serif;
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.relatedArrow {
+  float: right;
+  display: inline-block;
+}
+
+.otherSearches {
+  width: 650px;
+  margin-left: 135px;
+  margin-bottom: 100px;
+}
+
+.otherSearchLinks {
+  width: 270px;
+  color: #545454;
+  font-weight: bold;;
+  font-size: 13px;
+  line-height: 20px;
+  opacity: 0.90;
+}
+
+.otherSearchLinks:hover {
+  text-decoration: underline;
+}
+
+h3 {
+  color: #808080;
+  font-family: arial, sans-serif;
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.lSearchLinks {
+  float: left;
+}
+
+.rSearchLinks {
+  float: right;
+}
+
+.resultsNav {
+  width: 600px;
+  min-width: 600px;
+  margin-left: 260px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.resultsNumbers {
+    width: 600px;
+    margin-left: 42px;
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    color: #4285F4;
+}
+
+.footer {
+  display: inline-block;
+  width: 650px;
+  min-width: 650px;
+  height: 50px;
+  margin-top: 5px;
+  margin-left: 120px;
+  padding-left: 15px;
+  padding-bottom: 0px;
+}
+
+.footer li {
+  float: left;
+  padding-right: 35px;
+}
+
+.footer a {
+  color: black;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  line-height: 40px;
+  opacity: 0.50;
+  text-decoration: none;
+}
+
+#g {
+  height: 45px;
+  width: 34px;
+  display: inline-block;
+  background: url("../images/google-long.png") no-repeat;
+  background-size: 290px 40px;
+  background-position: 0 0;
+}
+
+#g a {
+  height: 45px;
+  width: 34px;
+  display: block;
+}
+
+#o {
+  height: 45px;
+  width: 23px;
+  display: inline-block;
+  background: url("../images/google-long.png") no-repeat;
+  background-size: 290px 40px;
+  background-position: -34px 0;
+  margin-left: -4px;
+}
+
+#o a {
+  height: 45px;
+  width: 23px;
+  display: block;
+}
+
+#o2 {
+  height: 45px;
+  width: 23px;
+  display: inline-block;
+  background: url("../images/google-long.png") no-repeat;
+  background-size: 290px 40px;
+  background-position: -57px 0;
+  margin-left: -4px;
+}
+
+#o2 a {
+  height: 45px;
+  width: 23px;
+  display: block;
+}
+
+#g2 {
+  height: 45px;
+  width: 23px;
+  display: inline-block;
+  background: url("../images/google-long.png") no-repeat;
+  background-size: 290px 40px;
+  background-position: -237px 0;
+  margin-left: -4px;
+}
+
+#g2 a {
+  height: 45px;
+  width: 23px;
+  display: block;
+}
+
+#l {
+  height: 45px;
+  width: 8px;
+  display: inline-block;
+  background: url("../images/google-long.png") no-repeat;
+  background-size: 290px 40px;
+  background-position: -260px 0;
+  margin-left: -4px;
+}
+
+#l a {
+  height: 45px;
+  width: 23px;
+  display: block;
+}
+
+#e {
+  height: 45px;
+  width: 23px;
+  display: inline-block;
+  background: url("../images/google-long.png") no-repeat;
+  background-size: 290px 40px;
+  background-position: -268px 0;
+  margin-left: -4px;
+}
+
+#e a {
+  height: 45px;
+  width: 23px;
+  display: block;
+}
+
+#rArrow {
+  height: 35px;
+  width: 30px;
+  display: inline-block;
+  background: url("../images/google-right-arrow.png") no-repeat;
+  background-size: 30px 25px;
+  background-position: 0 0;
+  padding-top: 5px;
+}
+
+#rArrow a {
+  height: 35px;
+  width: 30px;
+  display: block;
+}
+
+#number1 {
+  display: inline-block;
+  float: left;
+}
+
+#number2 {
+  display: inline-block;
+  float: left;
+  padding-left: 17px;
+}
+
+#number3 {
+  display: inline-block;
+  float: left;
+  padding-left: 17px;
+}
+
+#number4 {
+  display: inline-block;
+  float: left;
+  padding-left: 17px;
+}
+
+#number5 {
+  display: inline-block;
+  float: left;
+  padding-left: 17px;
+}
+
+#number6 {
+  display: inline-block;
+  float: left;
+  padding-left: 17px;
+}
+
+#number7 {
+  display: inline-block;
+  float: left;
+  padding-left: 17px;
+}
+
+#number8 {
+  display: inline-block;
+  float: left;
+  padding-left: 17px;
+}
+
+#number9 {
+  display: inline-block;
+  float: left;
+  padding-left: 17px;
+}
+
+#number10 {
+  display: inline-block;
+  float: left;
+  padding-left: 17px;
+}
+
+#resultsNavLogo {
+  height: 45px;
+  width: 250px;
+}
+
+#resultsNextLogo {
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#arrow {
+  height: 30px;
+  width: 30px;
+  opacity: 0.50;
+}
+
+#search {
+  vertical-align: middle;
+  height: 30px;
+  width: 610px;
+  font: 16px;
+  border: 1px solid #DDD;
+  padding-top: 5px;
+  margin-top: -5px;
+  background-image: url(../images/google-microphone-icon.png);
+  background-repeat: no-repeat;
+  background-size: 26px 26px;
+  background-position-x: 580px;
+  background-position-y: 5px;
+}
+
+#spyglass {
+  height: 37.4px;
+  width: 37.4px;
+  position: absolute;
+  top: 10.4px;
+  left: 734px;
+  vertical-align: middle;
+  opacity: 0.8;
+}
+
+#spyglass:hover {
+  opacity: 0.9;
+}
